@@ -36,7 +36,12 @@ $FLINK_HOME/bin/stop-cluster.sh
 ```
 
 ### Execution examples:
-* No argument is passed (all the nodes have parallelism degree equal to 1, the source generation rate is the maximum possible, the input data set is the default one (inside the `data/` directory): <br> 
+* No argument is passed (default configuration is used: all the nodes have parallelism degree equal to 1, the source generation rate is the maximum possible, the input data set is the default one (inside the `data/` directory). See (and modify if you want) all default configuration values in [hh.properties](https://github.com/alefais/packet-streaming-bench-sigcomm22poster/blob/master/Flink/HeavyHitter/src/main/resources/hh.properties). <br> 
 ```
 $FLINK_HOME/bin/flink run -c HeavyHitter.HeavyHitter target/HeavyHitter-1.0-SNAPSHOT-jar-with-dependencies.jar
+```
+
+* Application run passing some parameters: input dataset file, parallelism degree of all operators (order is relevant!), window length and slide, threshold value. <br>
+```
+$FLINK_HOME/bin/flink run -c HeavyHitter.HeavyHitter target/HeavyHitter-1.0-SNAPSHOT-jar-with-dependencies.jar data/pcap.csv 1 1 4 1 1 2000 100 1500
 ```

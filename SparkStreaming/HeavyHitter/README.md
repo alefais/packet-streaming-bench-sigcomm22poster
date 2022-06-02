@@ -15,8 +15,8 @@ mvn -X clean package
 
 2. Check the <b>Spark UI</b> available at `http://<url>:4040`.
 
-### Execution examples:
-* No argument is passed (all the nodes have parallelism degree equal to 1, the source generation rate is the maximum possible, the input data set is the default one (inside the `data/` directory): <br> 
+### Execution example:
+* No argument is passed (default configuration is used). See (and modify if you want) all default configuration values in [hh.properties](https://github.com/alefais/packet-streaming-bench-sigcomm22poster/blob/master/SparkStreaming/HeavyHitter/src/main/resources/hh.properties). <br>
 ```
 $SPARK_HOME/bin/spark-submit --class HeavyHitter.HeavyHitter target/HeavyHitter-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
