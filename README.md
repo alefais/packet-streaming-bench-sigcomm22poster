@@ -7,10 +7,10 @@ This repository includes the implementation of a heavy hitter detection network 
 
 | **Framework** | **Version used** | **Source code** |
 | :--- | :---: | :---: |
-|**[Apache Flink](https://github.com/apache/flink)**|[1.14.4]()|[Link](https://github.com/apache/flink)|
-|**[Apache Spark Streaming](https://spark.apache.org/streaming/)**|[3.2.1]()|[Link](https://github.com/apache/spark)|
-|**[Apache Storm](https://storm.apache.org/)**|[2.4.0]()|[Link](https://github.com/apache/storm)|
-|**[WindFlow](https://paragroup.github.io/WindFlow/)**|[3.0.0]()|[Link](https://github.com/ParaGroup/WindFlow)|
+|**[Apache Flink](https://flink.apache.org/)**|[1.14.4 (for Scala 2.12)](https://flink.apache.org/news/2022/03/11/release-1.14.4.html)|[Link](https://github.com/apache/flink)|
+|**[Apache Spark Streaming](https://spark.apache.org/streaming/)**|[3.2.1](https://spark.apache.org/releases/spark-release-3-2-1.html)|[Link](https://github.com/apache/spark)|
+|**[Apache Storm](https://storm.apache.org/)**|[2.4.0](https://storm.apache.org/2022/03/25/storm240-released.html)|[Link](https://github.com/apache/storm)|
+|**[WindFlow](https://paragroup.github.io/WindFlow/)**|[3.0.0](https://github.com/ParaGroup/WindFlow/releases/tag/3.0.0)|[Link](https://github.com/ParaGroup/WindFlow)|
 
 <!-- ## Contributors
 The main developer and maintainer of this repository is [Alessandra Fais](mailto:alessandra.fais@phd.unipi.it). -->
