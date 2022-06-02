@@ -1,0 +1,11 @@
+.vscode
+.idea
+
+*.pcap
+*.csv
+*.txt
+build
+includes/util/alglib/build
+includes/util/alglib/libalglib.a
+*.out
+*.o
