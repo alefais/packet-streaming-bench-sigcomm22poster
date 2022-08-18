@@ -14,10 +14,12 @@ This repository includes the implementation of a heavy hitter detection network 
 
 The code released as open source is part of our research aiming to shed some lights on the best streaming engine for network traffic analysis.
 
-## Conference Poster at [SIGCOMM '22 Posters and Demos](https://conferences.sigcomm.org/sigcomm/2022/cf-posters.html)
-Have a look at our poster ["Mind the Cost of Telemetry Data Analysis"](https://github.com/alefais/packet-streaming-bench-sigcomm22poster/blob/master/Fais-sigcomm22posters-poster63-A0.pdf) in A0 size format.
+# Conference Poster at [SIGCOMM '22 Posters and Demos](https://conferences.sigcomm.org/sigcomm/2022/cf-posters.html)
 
-## How to Cite
+If you are interested, have a look at our poster ["Mind the Cost of Telemetry Data Analysis"](https://github.com/alefais/packet-streaming-bench-sigcomm22poster/blob/master/Fais-sigcomm22posters-poster63-A0.pdf) (A0 size).
+
+# How to cite
+
 If our work reveals to be useful for your research, we kindly ask you to give credit to our effort by citing the following paper:
 ```
 @inproceedings{TelemetryStreamBench,
@@ -38,5 +40,6 @@ If our work reveals to be useful for your research, we kindly ask you to give cr
     doi = {10.1145/3546037.3546052}, 
 -->
 
-## Contributors
+# Contributors
+
 The main developer and maintainer of this repository is [Alessandra Fais](mailto:alessandra.fais@phd.unipi.it).
