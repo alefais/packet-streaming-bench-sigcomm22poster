@@ -16,7 +16,7 @@ The code released as open source is part of our research aiming to shed some lig
 
 # Conference Poster at [SIGCOMM '22 Posters and Demos](https://conferences.sigcomm.org/sigcomm/2022/cf-posters.html)
 
-If you are interested, have a look at our poster ["Mind the Cost of Telemetry Data Analysis"](https://github.com/alefais/packet-streaming-bench-sigcomm22poster/blob/master/Fais-sigcomm22posters-poster63-A0.pdf) (A0 size).
+If you are interested, have a look at our poster ["Mind the Cost of Telemetry Data Analysis"](https://github.com/alefais/packet-streaming-bench-sigcomm22poster/blob/master/Fais-sigcomm22posters-poster63-A0.pdf).
 
 # How to cite
 
